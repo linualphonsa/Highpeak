@@ -7,10 +7,10 @@ def diff(l):
     return a-b
 
 #open input file
-fi = open(r"F:\Highpeak\input.txt", "r")
+fi = open(r"D:\highpeak\input.txt", "r")
 
 #open output file
-fo = open(r"F:\Highpeak\output.txt","w")
+fo = open(r"D:\highpeak\output.txt","w")
 
 #read contents of the file
 temp = fi.read().splitlines()
